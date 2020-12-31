@@ -1,9 +1,8 @@
 body { margin: 0; padding: 0; background-color: #ebebeb }
-/* Head */
 
 h1 {
-    text-align: left;
-    font-size: 12px;
+    text-align: center;
+    font-size: 64px;
     color: #eb3141;
     font-family: Tahoma;
 }
