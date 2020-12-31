@@ -1,4 +1,4 @@
-body { margin: 0; padding: 0; background-color: #ebebeb }
+body { margin: 0; padding: 0; background-color: #ebebeb; }
 
 h1 {
     text-align: center;
@@ -11,7 +11,6 @@ h1 {
     margin: 0 auto;
     width: 720px;
     margin-top: auto;
-    /*padding-top: 1%;*/
 }
 
 .block-img img {
