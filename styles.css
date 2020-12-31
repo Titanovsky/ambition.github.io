@@ -1,0 +1,22 @@
+body { margin: 0; padding: 0; background-color: #ebebeb }
+/* Head */
+
+h1 {
+    text-align: left;
+    font-size: 12px;
+    color: #eb3141;
+    font-family: Tahoma;
+}
+
+.block-img {
+    margin: 0 auto;
+    width: 720px;
+    margin-top: auto;
+    /*padding-top: 1%;*/
+}
+
+.block-img img {
+	border: solid #eb3131 4px;
+    box-shadow: 0 0 7px #666;
+}
+
