@@ -12,12 +12,12 @@ h1 {
 }
 
 .block-img {
-    	margin: 0 auto;
+    	margin: 6 auto;
     	width: 720px;
     	margin-top: auto;
 }
 
 .block-img img {
-	border: solid #eb3131 4px;
-    	box-shadow: 0 0 7px #eba834;
+	border: solid #3b3b3b 4px;
+    	box-shadow: 0 0 6px #eee;
 }
