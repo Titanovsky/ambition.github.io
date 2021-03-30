@@ -4,20 +4,30 @@ body {
 	background-color: #3b3b3b;
 }
 
-h1 {
-    	text-align: center;
-    	font-size: 64px;
-    	color: #eb3141;
-	font-family: Tahoma;
+.block-header h1 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 52px;
+    color: #f28f33;
+	font-family: Arial;
+    text-shadow: black 0 0 4px;
 }
 
 .block-img {
-    	margin: 6 auto;
-    	width: 720px;
-    	margin-top: auto;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    align-content: center; 
+    justify-content: center; 
+    overflow: auto;  
 }
 
 .block-img img {
-	border: solid #eb9834 4px;
-    	box-shadow: 0 0 6px #eee;
+    display: block;
+	border: solid #42b0f5 4px;
+    box-shadow: 0 0 4px black;
 }
