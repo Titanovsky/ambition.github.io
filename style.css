@@ -1,14 +1,14 @@
 body { 
 	margin: 0; 
 	padding: 0; 
-	background-color: #3b3b3b;
+	background-color: #f7f7f7;
 }
 
 .block-header h1 {
     text-align: center;
     margin-top: 25px;
     font-size: 52px;
-    color: #d4472f;
+    color: #93e388;
 	font-family: Arial;
     text-shadow: black 0 0 4px;
 }
@@ -28,6 +28,6 @@ body {
 
 .block-img img {
     display: block;
-	border: solid #d4472f 4px;
+	border: solid #93e388 4px;
     box-shadow: 0 0 4px black;
 }
