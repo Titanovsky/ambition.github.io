@@ -8,7 +8,7 @@ body {
     text-align: center;
     margin-top: 25px;
     font-size: 52px;
-    color: #dc5ced;
+    color: #cd77f2;
 	font-family: Arial;
     text-shadow: black 0 0 4px;
 }
@@ -28,6 +28,6 @@ body {
 
 .block-img img {
     display: block;
-	border: solid #dc5ced 4px;
+	border: solid #cd77f2 4px;
     box-shadow: 0 0 4px black;
 }
