@@ -1,25 +1,18 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        body {
-            margin: 0;
-            padding: 0;
-            overflow: hidden; /* чтобы избежать прокрутки страницы */
-        }
-
-        img {
-            width: 100vw; /* ширина картинки равна 100% ширины видимой области страницы */
-            height: 100vh; /* высота картинки равна 100% высоты видимой области страницы */
-            object-fit: stretch; /* чтобы сохранить пропорции изображения и заполнить всю область */
-        }
-    </style>
-    <title>Растянутая картинка</title>
-</head>
-<body>
-    <img src="https://i.ibb.co/SVgfcmg/welcome.png" alt="Растянутая картинка">
-</body>
+<html>
+ <head>
+  <meta charset="utf-8">
+  <title>Растягиваемый фон</title>
+  <style>
+   body {
+    background: url(https://i.ibb.co/SVgfcmg/welcome.png) no-repeat;
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+   }
+  </style>
+ </head>
+ <body>
+ </body>
 </html>
